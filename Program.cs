@@ -17,8 +17,35 @@
 }
 
 
+int SizeForMiniArray(string[] array)
+{
+ int sizeMiniArr = array.Length;
+ for (int i = 0; i < array.Length; i++)
+ {
+  if (array[i].Length > 3) sizeMiniArr -= 1;
+ }
+ return sizeMiniArr;
+}
+
+string[] CreateNewMiniArrayString(int size, string[] BigArr)
+{
+ int j = 0;
+ string[] miniArr = new string[size];
+ for (int i = 0; i < BigArr.Length; i++)
+ {
+  if (BigArr[i].Length <= 3)
+  {
+   miniArr[j] = BigArr[i];
+   j++;
+  }
+ }
+ return miniArr;
+}
+
 
 string[] arr = СreationArrString(new Random().Next(4, 8));
 Console.WriteLine(String.Join(", ", arr));
-System.Console.WriteLine();
+string[] miniArr = CreateNewMiniArrayString(SizeForMiniArray(arr), arr);
+if (miniArr.Length == 0) System.Console.WriteLine("нет элементов более 3-х символов");
+else Console.WriteLine(String.Join(", ", miniArr));
 
