@@ -1,0 +1,15 @@
+D:\программирование\Репозитории\final_work_block_1\bin\Debug\net6.0\final_work_block_1.exe
+D:\программирование\Репозитории\final_work_block_1\bin\Debug\net6.0\final_work_block_1.deps.json
+D:\программирование\Репозитории\final_work_block_1\bin\Debug\net6.0\final_work_block_1.runtimeconfig.json
+D:\программирование\Репозитории\final_work_block_1\bin\Debug\net6.0\final_work_block_1.dll
+D:\программирование\Репозитории\final_work_block_1\bin\Debug\net6.0\final_work_block_1.pdb
+D:\программирование\Репозитории\final_work_block_1\obj\Debug\net6.0\final_work_block_1.csproj.AssemblyReference.cache
+D:\программирование\Репозитории\final_work_block_1\obj\Debug\net6.0\final_work_block_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\программирование\Репозитории\final_work_block_1\obj\Debug\net6.0\final_work_block_1.AssemblyInfoInputs.cache
+D:\программирование\Репозитории\final_work_block_1\obj\Debug\net6.0\final_work_block_1.AssemblyInfo.cs
+D:\программирование\Репозитории\final_work_block_1\obj\Debug\net6.0\final_work_block_1.csproj.CoreCompileInputs.cache
+D:\программирование\Репозитории\final_work_block_1\obj\Debug\net6.0\final_work_block_1.dll
+D:\программирование\Репозитории\final_work_block_1\obj\Debug\net6.0\refint\final_work_block_1.dll
+D:\программирование\Репозитории\final_work_block_1\obj\Debug\net6.0\final_work_block_1.pdb
+D:\программирование\Репозитории\final_work_block_1\obj\Debug\net6.0\final_work_block_1.genruntimeconfig.cache
+D:\программирование\Репозитории\final_work_block_1\obj\Debug\net6.0\ref\final_work_block_1.dll
