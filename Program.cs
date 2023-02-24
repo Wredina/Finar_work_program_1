@@ -1,4 +1,4 @@
-﻿string[] СreationarrString(int sizeArr)
+﻿string[] СreationArrString(int sizeArr)
 {
  string[] array = new string[sizeArr];
  string[] letters = new string[26] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
@@ -18,7 +18,7 @@
 
 
 
-string[] arr = СreationarrString(new Random().Next(4, 8));
+string[] arr = СreationArrString(new Random().Next(4, 8));
 Console.WriteLine(String.Join(", ", arr));
 System.Console.WriteLine();
 
