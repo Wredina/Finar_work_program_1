@@ -45,7 +45,12 @@ string[] CreateNewMiniArrayString(int size, string[] BigArr)
 
 string[] arr = СreationArrString(new Random().Next(4, 8));
 Console.WriteLine(String.Join(", ", arr));
-string[] miniArr = CreateNewMiniArrayString(SizeForMiniArray(arr), arr);
-if (miniArr.Length == 0) System.Console.WriteLine("нет элементов более 3-х символов");
-else Console.WriteLine(String.Join(", ", miniArr));
+int sizeMiniArray = SizeForMiniArray(arr);
+if (sizeMiniArray == 0) System.Console.WriteLine("нет элементов менее 4-х символов");
+else
+{
+ string[] miniArr = CreateNewMiniArrayString(sizeMiniArray, arr);
+ Console.WriteLine(String.Join(", ", miniArr));
+}
+
 
